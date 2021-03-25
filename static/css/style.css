@@ -1,0 +1,13 @@
+body, html {
+    background: khaki;
+}
+
+img{
+    max-width: 200px;
+}
+
+.destruction{
+    color:red;
+    font-size: 3em;
+    font-weight: bold;
+}

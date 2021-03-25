@@ -1,0 +1,15 @@
+<!--Heredando de la plantilla por parametro-->
+{% extends "base.html" %}
+
+<!--{{super()}} Hereda lo que contenga por default el bloque-->
+{% block title_page %}
+{{super()}} Test
+{% endblock %}
+
+
+<!-- Insertando el contenido en el bloque craeado -->
+{% block content %}
+    <h1>Pagina de TEST</h1>
+{% endblock %}
+
+
